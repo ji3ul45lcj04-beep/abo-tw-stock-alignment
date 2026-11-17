@@ -1,0 +1,129 @@
+name: Scan Taiwan stocks and deploy Pages
+
+on:
+  workflow_dispatch:
+  schedule:
+    # GitHub cron uses UTC: 22:00 = 06:00 Asia/Taipei, 06:00 = 14:00 Asia/Taipei.
+    - cron: "0 22 * * *"
+    - cron: "0 6 * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: tw-stock-alignment-pages
+  cancel-in-progress: false
+
+jobs:
+  scan-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      TZ: Asia/Taipei
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Select weekly cache key
+        shell: bash
+        run: echo "CACHE_WEEK=$(date +%G-%V)" >> "$GITHUB_ENV"
+
+      - name: Restore market history cache
+        id: history-cache
+        uses: actions/cache@v4
+        with:
+          path: data/tw_stock_cache
+          key: tw-stock-history-${{ env.CACHE_WEEK }}
+          restore-keys: |
+            tw-stock-history-
+
+      - name: Expand initial history seed
+        if: steps.history-cache.outputs.cache-matched-key == ''
+        shell: bash
+        run: tar -xzf tw_stock_cache_seed.tar.gz -C data
+
+      - name: Run regression tests
+        run: python -m unittest test_alignment_plan_state.py
+
+      - name: Scan full Taiwan market
+        shell: bash
+        run: |
+          for attempt in 1 2 3 4; do
+            python tw_stock_alignment_scanner.py \
+              --markets TWSE,TPEX \
+              --years 6 \
+              --cache-hours 18 \
+              --sleep 0.12 \
+              --adx-threshold 30 \
+              --ema-length 200 \
+              --dmi-length 14 \
+              --adx-smoothing 14 \
+              --buy-ema-length 20 \
+              --stop-lookback 10 \
+              --stop-ema-length 50 \
+              --stop-atr-length 14 \
+              --stop-atr-mult 0.5 \
+              --stop-buffer-pct 0 \
+              --min-stop-risk-pct 3 \
+              --max-stop-risk-pct 15 \
+              --far-entry-pct 15 \
+              --use-taifex-night \
+              --market-contract TX \
+              --night-bull-pct 0.3 \
+              --night-bear-pct 0.3 \
+              --night-neutral-entry-atr 0.2 \
+              --night-bear-entry-atr 0.5 \
+              --tp-ratio-1 1 \
+              --tp-ratio-2 2 \
+              --tp-ratio-3 3 \
+              --tp-resistance-lookback 120 \
+              --tp-min-gap-pct 1 \
+              --tp-min-resistance-r 0.8 \
+              --tp-min-step-r 0.5 \
+              --only-align \
+              --no-live-quotes \
+              --plan-state data/alignment_plans.json \
+              --csv docs/tw_day_week_alignment.csv \
+              --html docs/index.html && break
+            if [ "$attempt" = "4" ]; then exit 1; fi
+            sleep $((attempt * 30))
+          done
+
+      - name: Validate generated site
+        run: python validate_output.py
+
+      - name: Preserve latest state and snapshot
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/alignment_plans.json docs/index.html docs/tw_day_week_alignment.csv
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update Taiwan stock alignment snapshot"
+            git push
+          fi
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
