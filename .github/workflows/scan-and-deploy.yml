@@ -3,9 +3,10 @@ name: Scan Taiwan stocks and deploy Pages
 on:
   workflow_dispatch:
   schedule:
-    # GitHub cron uses UTC: 22:00 = 06:00 Asia/Taipei, 06:00 = 14:00 Asia/Taipei.
-    - cron: "0 22 * * *"
-    - cron: "0 6 * * *"
+    # GitHub cron uses UTC. Avoid the top of the hour, when scheduled jobs may be delayed.
+    # 22:10 UTC = 06:10 Asia/Taipei; 06:10 UTC = 14:10 Asia/Taipei.
+    - cron: "10 22 * * *"
+    - cron: "10 6 * * *"
 
 permissions:
   contents: write

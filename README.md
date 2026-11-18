@@ -4,8 +4,8 @@ This repository runs the Taiwan full-market scanner in GitHub Actions and publis
 
 ## Schedule
 
-- 06:00 Asia/Taipei
-- 14:00 Asia/Taipei
+- 06:10 Asia/Taipei
+- 14:10 Asia/Taipei
 
 ## Inclusion rule
 
