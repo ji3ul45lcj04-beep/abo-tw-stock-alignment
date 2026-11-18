@@ -4,8 +4,11 @@ This repository runs the Taiwan full-market scanner in GitHub Actions and publis
 
 ## Schedule
 
-- 06:10 Asia/Taipei
-- 14:10 Asia/Taipei
+- Morning attempts: 06:10, 06:30, 06:50 Asia/Taipei
+- Afternoon attempts: 14:10, 14:30, 14:50 Asia/Taipei
+
+The first successful run publishes the site. Later attempts in the same window
+read the generated timestamp and skip the expensive scan when the site is fresh.
 
 ## Inclusion rule
 

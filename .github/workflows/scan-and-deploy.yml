@@ -3,10 +3,16 @@ name: Scan Taiwan stocks and deploy Pages
 on:
   workflow_dispatch:
   schedule:
-    # GitHub cron uses UTC. Avoid the top of the hour, when scheduled jobs may be delayed.
-    # 22:10 UTC = 06:10 Asia/Taipei; 06:10 UTC = 14:10 Asia/Taipei.
+    # Three non-top-of-hour attempts per window. A freshness gate skips duplicates
+    # after the first successful publication.
+    # 22:10/30/50 UTC = 06:10/30/50 Asia/Taipei.
     - cron: "10 22 * * *"
+    - cron: "30 22 * * *"
+    - cron: "50 22 * * *"
+    # 06:10/30/50 UTC = 14:10/30/50 Asia/Taipei.
     - cron: "10 6 * * *"
+    - cron: "30 6 * * *"
+    - cron: "50 6 * * *"
 
 permissions:
   contents: write
@@ -38,11 +44,17 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Decide whether this backup run is needed
+        id: freshness
+        run: python should_run.py
+
       - name: Select weekly cache key
+        if: steps.freshness.outputs.run == 'true'
         shell: bash
         run: echo "CACHE_WEEK=$(date +%G-%V)" >> "$GITHUB_ENV"
 
       - name: Restore market history cache
+        if: steps.freshness.outputs.run == 'true'
         id: history-cache
         uses: actions/cache@v4
         with:
@@ -52,14 +64,16 @@ jobs:
             tw-stock-history-
 
       - name: Expand initial history seed
-        if: steps.history-cache.outputs.cache-matched-key == ''
+        if: steps.freshness.outputs.run == 'true' && steps.history-cache.outputs.cache-matched-key == ''
         shell: bash
         run: tar -xzf tw_stock_cache_seed.tar.gz -C data
 
       - name: Run regression tests
+        if: steps.freshness.outputs.run == 'true'
         run: python -m unittest test_alignment_plan_state.py
 
       - name: Scan full Taiwan market
+        if: steps.freshness.outputs.run == 'true'
         shell: bash
         run: |
           for attempt in 1 2 3 4; do
@@ -104,9 +118,11 @@ jobs:
           done
 
       - name: Validate generated site
+        if: steps.freshness.outputs.run == 'true'
         run: python validate_output.py
 
       - name: Preserve latest state and snapshot
+        if: steps.freshness.outputs.run == 'true'
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
@@ -118,13 +134,16 @@ jobs:
           fi
 
       - name: Configure GitHub Pages
+        if: steps.freshness.outputs.run == 'true'
         uses: actions/configure-pages@v5
 
       - name: Upload Pages artifact
+        if: steps.freshness.outputs.run == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs
 
       - name: Deploy GitHub Pages
+        if: steps.freshness.outputs.run == 'true'
         id: deployment
         uses: actions/deploy-pages@v4
