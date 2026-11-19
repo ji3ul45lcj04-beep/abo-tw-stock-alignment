@@ -3,16 +3,11 @@ name: Scan Taiwan stocks and deploy Pages
 on:
   workflow_dispatch:
   schedule:
-    # Three non-top-of-hour attempts per window. A freshness gate skips duplicates
-    # after the first successful publication.
-    # 22:10/30/50 UTC = 06:10/30/50 Asia/Taipei.
-    - cron: "10 22 * * *"
-    - cron: "30 22 * * *"
-    - cron: "50 22 * * *"
-    # 06:10/30/50 UTC = 14:10/30/50 Asia/Taipei.
-    - cron: "10 6 * * *"
-    - cron: "30 6 * * *"
-    - cron: "50 6 * * *"
+    # Lightweight cloud watchdog. GitHub scheduled events are best-effort, so
+    # frequent off-minute checks are safer than relying on a few exact times.
+    # The freshness gate performs the full scan at most once after 06:00 and
+    # once after 14:00 Asia/Taipei, then skips the remaining checks.
+    - cron: "7,27,47 * * * *"
 
 permissions:
   contents: write
@@ -70,7 +65,7 @@ jobs:
 
       - name: Run regression tests
         if: steps.freshness.outputs.run == 'true'
-        run: python -m unittest test_alignment_plan_state.py
+        run: python -m unittest
 
       - name: Scan full Taiwan market
         if: steps.freshness.outputs.run == 'true'

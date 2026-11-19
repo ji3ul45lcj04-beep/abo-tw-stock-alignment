@@ -11,6 +11,13 @@ TAIPEI = ZoneInfo("Asia/Taipei")
 GENERATED_PATTERN = re.compile(r"Generated: (\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})")
 
 
+def target_hour_for(now: datetime) -> int | None:
+    """Return the latest due publication window in Taipei time."""
+    if now.hour < 6:
+        return None
+    return 14 if now.hour >= 14 else 6
+
+
 def main() -> int:
     event_name = os.environ.get("GITHUB_EVENT_NAME", "")
     should_run = True
@@ -18,7 +25,7 @@ def main() -> int:
 
     if event_name == "schedule":
         now = datetime.now(TAIPEI)
-        target_hour = 14 if now.hour >= 14 else 6
+        target_hour = target_hour_for(now)
         html_path = Path("docs/index.html")
         generated = None
         if html_path.exists():
@@ -26,17 +33,21 @@ def main() -> int:
             if match:
                 generated = datetime.strptime(match.group(1), "%Y-%m-%d %H:%M:%S").replace(tzinfo=TAIPEI)
 
-        fresh = (
-            generated is not None
-            and generated.date() == now.date()
-            and generated.hour >= target_hour
-        )
-        should_run = not fresh
-        reason = (
-            f"snapshot already fresh for {target_hour:02d}:00 window ({generated})"
-            if fresh
-            else f"snapshot missing or stale for {target_hour:02d}:00 window ({generated})"
-        )
+        if target_hour is None:
+            should_run = False
+            reason = "before the first 06:00 Asia/Taipei update window"
+        else:
+            fresh = (
+                generated is not None
+                and generated.date() == now.date()
+                and generated.hour >= target_hour
+            )
+            should_run = not fresh
+            reason = (
+                f"snapshot already fresh for {target_hour:02d}:00 window ({generated})"
+                if fresh
+                else f"snapshot missing or stale for {target_hour:02d}:00 window ({generated})"
+            )
 
     output_path = os.environ.get("GITHUB_OUTPUT")
     if output_path:

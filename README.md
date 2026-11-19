@@ -4,8 +4,9 @@ This repository runs the Taiwan full-market scanner in GitHub Actions and publis
 
 ## Schedule
 
-- Morning attempts: 06:10, 06:30, 06:50 Asia/Taipei
-- Afternoon attempts: 14:10, 14:30, 14:50 Asia/Taipei
+- Cloud watchdog: every hour at minute 07, 27, and 47
+- Full scans: at most once after 06:00 and once after 14:00 Asia/Taipei
+- Before 06:00 and after a successful window update, watchdog runs exit early
 
 The first successful run publishes the site. Later attempts in the same window
 read the generated timestamp and skip the expensive scan when the site is fresh.
