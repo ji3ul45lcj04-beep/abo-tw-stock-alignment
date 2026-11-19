@@ -14,7 +14,7 @@
       "status": "TP3 GET",
       "entry_date": "2026-09-08",
       "highest_tp": 3,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true,
       "baseline_status": "ENTRY TOUCHED",
       "baseline_entry_date": "2026-09-08",
@@ -33,7 +33,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-08",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true,
       "baseline_status": "ENTRY TOUCHED",
       "baseline_entry_date": "2026-09-08",
@@ -52,7 +52,7 @@
       "status": "ENTRY TOUCHED",
       "entry_date": "2026-09-08",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false,
       "baseline_status": "ENTRY TOUCHED",
       "baseline_entry_date": "2026-09-08",
@@ -71,7 +71,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-11-02",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2059.TW": {
@@ -103,7 +103,7 @@
       "status": "TP3 GET",
       "entry_date": "2026-10-13",
       "highest_tp": 3,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2301.TW": {
@@ -119,7 +119,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-10",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2324.TW": {
@@ -135,7 +135,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-08",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true,
       "baseline_status": "ENTRY TOUCHED",
       "baseline_entry_date": "2026-09-08",
@@ -154,7 +154,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-23",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2357.TW": {
@@ -186,7 +186,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-08",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true,
       "baseline_status": "ENTRY TOUCHED",
       "baseline_entry_date": "2026-09-08",
@@ -205,7 +205,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-08",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2546.TW": {
@@ -221,7 +221,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-08",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true,
       "baseline_status": "ENTRY TOUCHED",
       "baseline_entry_date": "2026-09-08",
@@ -240,7 +240,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-16",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2615.TW": {
@@ -256,7 +256,7 @@
       "status": "TP1 GET",
       "entry_date": "2026-09-10",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "2634.TW": {
@@ -272,7 +272,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-08",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true,
       "baseline_status": "ENTRY TOUCHED",
       "baseline_entry_date": "2026-09-08",
@@ -288,11 +288,11 @@
         "tp2": 114.5,
         "tp3": 122.5
       },
-      "status": "ENTRY TOUCHED",
+      "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-24",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
-      "rearm": false
+      "last_seen": "2026-11-19",
+      "rearm": true
     },
     "2801.TW": {
       "created_date": "2026-09-30",
@@ -307,7 +307,7 @@
       "status": "TP2 GET",
       "entry_date": "2026-10-01",
       "highest_tp": 2,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "2816.TW": {
@@ -323,7 +323,7 @@
       "status": "TP2 GET",
       "entry_date": "2026-10-02",
       "highest_tp": 2,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "2851.TW": {
@@ -339,7 +339,7 @@
       "status": "TP1 GET",
       "entry_date": "2026-10-01",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "2880.TW": {
@@ -355,7 +355,7 @@
       "status": "TP2 GET",
       "entry_date": "2026-10-01",
       "highest_tp": 2,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "2881.TW": {
@@ -371,7 +371,7 @@
       "status": "TP1 GET",
       "entry_date": "2026-10-01",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "2882.TW": {
@@ -387,7 +387,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-01",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2883.TW": {
@@ -403,7 +403,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-01",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2886.TW": {
@@ -419,7 +419,7 @@
       "status": "TP2 GET",
       "entry_date": "2026-09-21",
       "highest_tp": 2,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "2887.TW": {
@@ -435,7 +435,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-08",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2890.TW": {
@@ -451,7 +451,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-01",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2892.TW": {
@@ -467,7 +467,7 @@
       "status": "TP2 GET",
       "entry_date": "2026-10-01",
       "highest_tp": 2,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "2897.TW": {
@@ -483,7 +483,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-01",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "3504.TW": {
@@ -499,7 +499,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-08",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true,
       "baseline_status": "ENTRY TOUCHED",
       "baseline_entry_date": "2026-09-08",
@@ -518,7 +518,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-10",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6141.TW": {
@@ -534,7 +534,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-16",
       "highest_tp": 2,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6214.TW": {
@@ -550,7 +550,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-30",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6224.TW": {
@@ -566,7 +566,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-22",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6669.TW": {
@@ -582,7 +582,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-10",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "8039.TW": {
@@ -598,7 +598,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-10",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "8103.TW": {
@@ -630,7 +630,7 @@
       "status": "TP3 GET",
       "entry_date": "2026-09-24",
       "highest_tp": 3,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "3066.TWO": {
@@ -646,7 +646,7 @@
       "status": "TP3 GET",
       "entry_date": "2026-09-08",
       "highest_tp": 3,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true,
       "baseline_status": "ENTRY TOUCHED",
       "baseline_entry_date": "2026-09-08",
@@ -665,7 +665,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-08",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true,
       "baseline_status": "ENTRY TOUCHED",
       "baseline_entry_date": "2026-09-08",
@@ -684,7 +684,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-08",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true,
       "baseline_status": "ENTRY TOUCHED",
       "baseline_entry_date": "2026-09-08",
@@ -719,7 +719,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-08",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true,
       "baseline_status": "ENTRY TOUCHED",
       "baseline_entry_date": "2026-09-08",
@@ -738,7 +738,7 @@
       "status": "ORDER UNKNOWN",
       "entry_date": "2026-09-15",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "3631.TWO": {
@@ -754,7 +754,7 @@
       "status": "TP3 GET",
       "entry_date": "2026-09-08",
       "highest_tp": 3,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true,
       "baseline_status": "ENTRY TOUCHED",
       "baseline_entry_date": "2026-09-08",
@@ -773,7 +773,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-22",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "4413.TWO": {
@@ -821,7 +821,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-16",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "5321.TWO": {
@@ -837,7 +837,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-14",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6021.TWO": {
@@ -853,7 +853,7 @@
       "status": "ORDER UNKNOWN",
       "entry_date": "2026-09-23",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "6532.TWO": {
@@ -869,7 +869,7 @@
       "status": "TP3 GET",
       "entry_date": "2026-09-11",
       "highest_tp": 3,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6716.TWO": {
@@ -933,7 +933,7 @@
       "status": "TP3 GET",
       "entry_date": "2026-09-15",
       "highest_tp": 3,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "3141.TWO": {
@@ -965,7 +965,7 @@
       "status": "ORDER UNKNOWN",
       "entry_date": "2026-09-14",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "1312.TW": {
@@ -981,7 +981,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-19",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "3498.TWO": {
@@ -997,7 +997,7 @@
       "status": "TP3 GET",
       "entry_date": "2026-09-15",
       "highest_tp": 3,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2243.TW": {
@@ -1013,7 +1013,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-27",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2834.TW": {
@@ -1029,7 +1029,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-24",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "3008.TW": {
@@ -1045,7 +1045,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-14",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "5460.TWO": {
@@ -1061,7 +1061,7 @@
       "status": "TP3 GET",
       "entry_date": "2026-09-24",
       "highest_tp": 3,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "5464.TWO": {
@@ -1077,7 +1077,7 @@
       "status": "ORDER UNKNOWN",
       "entry_date": "2026-10-12",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "6840.TWO": {
@@ -1093,7 +1093,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-07",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6870.TWO": {
@@ -1109,7 +1109,7 @@
       "status": "TP3 GET",
       "entry_date": "2026-10-14",
       "highest_tp": 3,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "1734.TW": {
@@ -1125,7 +1125,7 @@
       "status": "ORDER UNKNOWN",
       "entry_date": "2026-10-12",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "2605.TW": {
@@ -1141,7 +1141,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-16",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "3229.TW": {
@@ -1157,7 +1157,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-22",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "5880.TW": {
@@ -1173,7 +1173,7 @@
       "status": "TP2 GET",
       "entry_date": "2026-09-24",
       "highest_tp": 2,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "3234.TWO": {
@@ -1205,7 +1205,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-23",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "1314.TW": {
@@ -1221,7 +1221,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-19",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2855.TW": {
@@ -1237,7 +1237,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-19",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "3693.TWO": {
@@ -1253,7 +1253,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-01",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6240.TWO": {
@@ -1269,7 +1269,7 @@
       "status": "ENTRY TOUCHED",
       "entry_date": "2026-11-11",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "2516.TW": {
@@ -1285,7 +1285,7 @@
       "status": "ORDER UNKNOWN",
       "entry_date": "2026-10-06",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "2884.TW": {
@@ -1298,11 +1298,11 @@
         "tp2": 51.6,
         "tp3": 55.3
       },
-      "status": "TP1 GET",
+      "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-01",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
-      "rearm": false
+      "last_seen": "2026-11-19",
+      "rearm": true
     },
     "3308.TW": {
       "created_date": "2026-10-06",
@@ -1317,7 +1317,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-07",
       "highest_tp": 2,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6292.TWO": {
@@ -1333,23 +1333,23 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-08",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2254.TW": {
-      "created_date": "2026-11-18",
+      "created_date": "2026-11-19",
       "levels": {
-        "suggested_buy": 105.5,
+        "suggested_buy": 104.5,
         "warning_line": 105.5,
-        "stop_loss": 93.1,
-        "tp1": 117.5,
-        "tp2": 130.0,
-        "tp3": 142.5
+        "stop_loss": 93.8,
+        "tp1": 115.0,
+        "tp2": 125.5,
+        "tp3": 136.5
       },
       "status": "WAIT BUY",
       "entry_date": null,
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "2849.TW": {
@@ -1365,7 +1365,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-02",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "3532.TW": {
@@ -1381,7 +1381,7 @@
       "status": "ORDER UNKNOWN",
       "entry_date": "2026-10-13",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "6133.TW": {
@@ -1397,7 +1397,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-13",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6416.TW": {
@@ -1413,7 +1413,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-19",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "8996.TW": {
@@ -1429,7 +1429,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-16",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "3285.TWO": {
@@ -1445,7 +1445,7 @@
       "status": "ORDER UNKNOWN",
       "entry_date": "2026-10-15",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "6617.TWO": {
@@ -1477,7 +1477,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-19",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2885.TW": {
@@ -1509,7 +1509,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-19",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6805.TW": {
@@ -1525,7 +1525,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-08",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "3169.TWO": {
@@ -1541,7 +1541,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-07",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "3434.TWO": {
@@ -1557,7 +1557,7 @@
       "status": "TP3 GET",
       "entry_date": "2026-10-05",
       "highest_tp": 3,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6016.TWO": {
@@ -1573,7 +1573,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-16",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6173.TWO": {
@@ -1589,7 +1589,7 @@
       "status": "ORDER UNKNOWN",
       "entry_date": "2026-10-22",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "1560.TW": {
@@ -1605,7 +1605,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-15",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "1727.TW": {
@@ -1621,7 +1621,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-07",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2454.TW": {
@@ -1637,7 +1637,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-08",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2455.TW": {
@@ -1653,7 +1653,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-13",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "3406.TW": {
@@ -1669,7 +1669,7 @@
       "status": "TP3 GET",
       "entry_date": "2026-09-29",
       "highest_tp": 3,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "1558.TW": {
@@ -1685,7 +1685,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-01",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "1721.TW": {
@@ -1701,7 +1701,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-16",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "1725.TW": {
@@ -1733,7 +1733,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-30",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2444.TW": {
@@ -1749,7 +1749,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-15",
       "highest_tp": 2,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "5876.TW": {
@@ -1765,7 +1765,7 @@
       "status": "TP3 GET",
       "entry_date": "2026-10-01",
       "highest_tp": 3,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "4923.TWO": {
@@ -1797,7 +1797,7 @@
       "status": "ORDER UNKNOWN",
       "entry_date": "2026-11-03",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "1595.TWO": {
@@ -1813,7 +1813,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-07",
       "highest_tp": 2,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "4577.TWO": {
@@ -1829,7 +1829,7 @@
       "status": "ORDER UNKNOWN",
       "entry_date": "2026-10-13",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "2413.TW": {
@@ -1845,7 +1845,7 @@
       "status": "TP3 GET",
       "entry_date": "2026-10-15",
       "highest_tp": 3,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2481.TW": {
@@ -1893,7 +1893,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-16",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6603.TWO": {
@@ -1909,7 +1909,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-13",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "1710.TW": {
@@ -1925,7 +1925,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-19",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2347.TW": {
@@ -1941,7 +1941,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-11-02",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "8150.TW": {
@@ -1957,7 +1957,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-15",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "5210.TWO": {
@@ -1973,7 +1973,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-19",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "5864.TWO": {
@@ -1989,7 +1989,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-21",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "8109.TWO": {
@@ -2037,7 +2037,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-08",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "3287.TWO": {
@@ -2053,7 +2053,7 @@
       "status": "TP3 GET",
       "entry_date": "2026-10-07",
       "highest_tp": 3,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "3339.TWO": {
@@ -2069,7 +2069,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-07",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "8040.TWO": {
@@ -2101,7 +2101,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-20",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2241.TW": {
@@ -2117,7 +2117,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-22",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "3543.TW": {
@@ -2133,7 +2133,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-16",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6209.TW": {
@@ -2165,7 +2165,7 @@
       "status": "ORDER UNKNOWN",
       "entry_date": "2026-10-15",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "6207.TWO": {
@@ -2181,7 +2181,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-16",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2527.TW": {
@@ -2197,7 +2197,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-16",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "5285.TW": {
@@ -2213,7 +2213,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-15",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6196.TW": {
@@ -2229,7 +2229,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-20",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6257.TW": {
@@ -2245,7 +2245,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-16",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2061.TWO": {
@@ -2261,7 +2261,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-16",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "3114.TWO": {
@@ -2277,7 +2277,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-27",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "8289.TWO": {
@@ -2293,7 +2293,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-20",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2103.TW": {
@@ -2309,7 +2309,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-19",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "3149.TW": {
@@ -2341,7 +2341,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-22",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "5011.TWO": {
@@ -2357,7 +2357,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-22",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "5483.TWO": {
@@ -2405,7 +2405,7 @@
       "status": "ORDER UNKNOWN",
       "entry_date": "2026-10-30",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "6654.TWO": {
@@ -2421,7 +2421,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-15",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "1301.TW": {
@@ -2437,7 +2437,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-22",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "1313.TW": {
@@ -2469,7 +2469,7 @@
       "status": "ORDER UNKNOWN",
       "entry_date": "2026-10-19",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "1809.TW": {
@@ -2485,7 +2485,7 @@
       "status": "ORDER UNKNOWN",
       "entry_date": "2026-10-13",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "3026.TW": {
@@ -2501,7 +2501,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-16",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "3189.TW": {
@@ -2517,7 +2517,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-19",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "5434.TW": {
@@ -2533,7 +2533,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-19",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6658.TW": {
@@ -2549,7 +2549,7 @@
       "status": "ORDER UNKNOWN",
       "entry_date": "2026-10-16",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "6218.TWO": {
@@ -2565,7 +2565,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-12",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6620.TWO": {
@@ -2581,7 +2581,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-20",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "3653.TW": {
@@ -2597,7 +2597,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-20",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6168.TW": {
@@ -2613,7 +2613,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-12",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6426.TW": {
@@ -2629,7 +2629,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-13",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "3176.TWO": {
@@ -2645,7 +2645,7 @@
       "status": "ORDER UNKNOWN",
       "entry_date": "2026-10-13",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "3268.TWO": {
@@ -2661,7 +2661,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-22",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "3623.TWO": {
@@ -2677,7 +2677,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-14",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6894.TWO": {
@@ -2693,7 +2693,7 @@
       "status": "TP3 GET",
       "entry_date": "2026-10-19",
       "highest_tp": 3,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "4807.TW": {
@@ -2709,7 +2709,7 @@
       "status": "ORDER UNKNOWN",
       "entry_date": "2026-10-20",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "5292.TW": {
@@ -2757,7 +2757,7 @@
       "status": "TP2 GET",
       "entry_date": "2026-10-27",
       "highest_tp": 2,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "5228.TWO": {
@@ -2773,7 +2773,7 @@
       "status": "ORDER UNKNOWN",
       "entry_date": "2026-10-19",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "6127.TWO": {
@@ -2789,7 +2789,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-19",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6187.TWO": {
@@ -2805,7 +2805,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-16",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "8050.TWO": {
@@ -2821,7 +2821,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-22",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "1315.TW": {
@@ -2837,7 +2837,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-19",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "1434.TW": {
@@ -2901,7 +2901,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-21",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2107.TW": {
@@ -2917,7 +2917,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-30",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6197.TW": {
@@ -2949,7 +2949,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-19",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "1742.TWO": {
@@ -2965,7 +2965,7 @@
       "status": "ORDER UNKNOWN",
       "entry_date": "2026-11-03",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "2484.TW": {
@@ -2981,7 +2981,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-19",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2520.TW": {
@@ -2997,7 +2997,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-19",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "3520.TWO": {
@@ -3013,7 +3013,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-19",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2609.TW": {
@@ -3061,7 +3061,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-22",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "4542.TWO": {
@@ -3077,7 +3077,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-27",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "4706.TWO": {
@@ -3093,7 +3093,7 @@
       "status": "TP1 GET",
       "entry_date": "2026-11-06",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "5230.TWO": {
@@ -3109,7 +3109,7 @@
       "status": "TP3 GET",
       "entry_date": "2026-10-30",
       "highest_tp": 3,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "6179.TWO": {
@@ -3125,7 +3125,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-30",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "7556.TWO": {
@@ -3141,7 +3141,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-22",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "1776.TW": {
@@ -3157,7 +3157,7 @@
       "status": "ORDER UNKNOWN",
       "entry_date": "2026-10-20",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "3311.TW": {
@@ -3173,7 +3173,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-22",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6152.TW": {
@@ -3189,7 +3189,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-27",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6456.TW": {
@@ -3205,7 +3205,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-20",
       "highest_tp": 2,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "3219.TWO": {
@@ -3221,7 +3221,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-21",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "3265.TWO": {
@@ -3237,7 +3237,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-22",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "3624.TWO": {
@@ -3253,7 +3253,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-22",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "3016.TW": {
@@ -3269,7 +3269,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-22",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "3094.TW": {
@@ -3285,7 +3285,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-21",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "3518.TW": {
@@ -3301,7 +3301,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-21",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6277.TW": {
@@ -3317,7 +3317,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-30",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6668.TW": {
@@ -3333,7 +3333,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-22",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "9105.TW": {
@@ -3349,7 +3349,7 @@
       "status": "ORDER UNKNOWN",
       "entry_date": "2026-10-22",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "3443.TW": {
@@ -3365,7 +3365,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-22",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "4188.TWO": {
@@ -3397,7 +3397,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-27",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6226.TW": {
@@ -3429,7 +3429,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-27",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6834.TW": {
@@ -3445,7 +3445,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-27",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "9933.TW": {
@@ -3461,23 +3461,23 @@
       "status": "ORDER UNKNOWN",
       "entry_date": "2026-11-09",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "6199.TWO": {
-      "created_date": "2026-11-18",
+      "created_date": "2026-11-19",
       "levels": {
-        "suggested_buy": 161.0,
-        "warning_line": 161.0,
-        "stop_loss": 141.5,
-        "tp1": 180.5,
-        "tp2": 200.0,
-        "tp3": 219.5
+        "suggested_buy": 160.5,
+        "warning_line": 162.0,
+        "stop_loss": 143.0,
+        "tp1": 178.0,
+        "tp2": 195.5,
+        "tp3": 213.0
       },
       "status": "WAIT BUY",
       "entry_date": null,
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "6590.TWO": {
@@ -3493,7 +3493,7 @@
       "status": "TP3 GET",
       "entry_date": "2026-11-09",
       "highest_tp": 3,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "1459.TW": {
@@ -3509,7 +3509,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-11-17",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2377.TW": {
@@ -3525,7 +3525,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-30",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2412.TW": {
@@ -3541,7 +3541,7 @@
       "status": "TP1 GET",
       "entry_date": "2026-11-11",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "2889.TW": {
@@ -3557,7 +3557,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-11-02",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "4566.TW": {
@@ -3573,7 +3573,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-11-03",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6526.TW": {
@@ -3589,7 +3589,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-28",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6782.TW": {
@@ -3605,7 +3605,7 @@
       "status": "TP3 GET",
       "entry_date": "2026-11-04",
       "highest_tp": 3,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "4556.TWO": {
@@ -3621,7 +3621,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-29",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "5465.TWO": {
@@ -3637,7 +3637,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-11-03",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2305.TW": {
@@ -3653,7 +3653,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-29",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2312.TW": {
@@ -3685,7 +3685,7 @@
       "status": "ORDER UNKNOWN",
       "entry_date": "2026-11-06",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "3034.TW": {
@@ -3701,7 +3701,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-30",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6269.TW": {
@@ -3733,7 +3733,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-11-02",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6278.TW": {
@@ -3765,7 +3765,7 @@
       "status": "TP2 GET",
       "entry_date": "2026-11-03",
       "highest_tp": 2,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "4924.TWO": {
@@ -3781,7 +3781,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-11-03",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6418.TWO": {
@@ -3797,7 +3797,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-11-03",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "2480.TW": {
@@ -3813,7 +3813,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-11-03",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6136.TW": {
@@ -3829,7 +3829,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-11-03",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6213.TW": {
@@ -3861,7 +3861,7 @@
       "status": "TP2 GET",
       "entry_date": "2026-11-10",
       "highest_tp": 2,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "1569.TWO": {
@@ -3877,7 +3877,7 @@
       "status": "TP2 GET",
       "entry_date": "2026-11-09",
       "highest_tp": 2,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "4720.TW": {
@@ -3893,7 +3893,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-11-09",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "6225.TW": {
@@ -3925,7 +3925,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-11-09",
       "highest_tp": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": true
     },
     "5209.TWO": {
@@ -3938,10 +3938,10 @@
         "tp2": 246.0,
         "tp3": 266.5
       },
-      "status": "WAIT BUY",
-      "entry_date": null,
+      "status": "ENTRY TOUCHED",
+      "entry_date": "2026-11-19",
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "rearm": false
     },
     "6609.TWO": {
@@ -3954,10 +3954,90 @@
         "tp2": 59.9,
         "tp3": 65.1
       },
+      "status": "ENTRY TOUCHED",
+      "entry_date": "2026-11-19",
+      "highest_tp": 0,
+      "last_seen": "2026-11-19",
+      "rearm": false
+    },
+    "6148.TWO": {
+      "created_date": "2026-11-19",
+      "levels": {
+        "suggested_buy": 46.2,
+        "warning_line": 48.6,
+        "stop_loss": 39.95,
+        "tp1": 52.4,
+        "tp2": 58.7,
+        "tp3": 64.9
+      },
       "status": "WAIT BUY",
       "entry_date": null,
       "highest_tp": 0,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
+      "rearm": false
+    },
+    "6150.TWO": {
+      "created_date": "2026-11-19",
+      "levels": {
+        "suggested_buy": 70.6,
+        "warning_line": 73.3,
+        "stop_loss": 66.2,
+        "tp1": 74.1,
+        "tp2": 79.3,
+        "tp3": 83.5
+      },
+      "status": "WAIT BUY",
+      "entry_date": null,
+      "highest_tp": 0,
+      "last_seen": "2026-11-19",
+      "rearm": false
+    },
+    "1416.TW": {
+      "created_date": "2026-11-19",
+      "levels": {
+        "suggested_buy": 15.5,
+        "warning_line": 16.1,
+        "stop_loss": 13.65,
+        "tp1": 17.35,
+        "tp2": 19.2,
+        "tp3": 21.0
+      },
+      "status": "WAIT BUY",
+      "entry_date": null,
+      "highest_tp": 0,
+      "last_seen": "2026-11-19",
+      "rearm": false
+    },
+    "2465.TW": {
+      "created_date": "2026-11-19",
+      "levels": {
+        "suggested_buy": 121.5,
+        "warning_line": 127.5,
+        "stop_loss": 104.5,
+        "tp1": 138.5,
+        "tp2": 155.5,
+        "tp3": 165.0
+      },
+      "status": "WAIT BUY",
+      "entry_date": null,
+      "highest_tp": 0,
+      "last_seen": "2026-11-19",
+      "rearm": false
+    },
+    "6108.TW": {
+      "created_date": "2026-11-19",
+      "levels": {
+        "suggested_buy": 33.6,
+        "warning_line": 35.15,
+        "stop_loss": 28.75,
+        "tp1": 38.45,
+        "tp2": 43.3,
+        "tp3": 48.15
+      },
+      "status": "WAIT BUY",
+      "entry_date": null,
+      "highest_tp": 0,
+      "last_seen": "2026-11-19",
       "rearm": false
     }
   },
