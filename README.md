@@ -4,9 +4,9 @@ This repository runs the Taiwan full-market scanner in GitHub Actions and publis
 
 ## Schedule
 
-- Cloud watchdog: every hour at minute 07, 27, and 47
-- Full scans: at most once after 06:00 and once after 14:00 Asia/Taipei
-- Before 06:00 and after a successful window update, watchdog runs exit early
+- Primary triggers: external Vercel Cron at 06:10 and 14:10 Asia/Taipei
+- GitHub backup triggers: 07:50 and 15:50 Asia/Taipei
+- Full scans: at most once after 06:00 and once after 14:00; fresh backups exit early
 
 The first successful run publishes the site. Later attempts in the same window
 read the generated timestamp and skip the expensive scan when the site is fresh.

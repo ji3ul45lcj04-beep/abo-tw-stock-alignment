@@ -3,11 +3,12 @@ name: Scan Taiwan stocks and deploy Pages
 on:
   workflow_dispatch:
   schedule:
-    # Lightweight cloud watchdog. GitHub scheduled events are best-effort, so
-    # frequent off-minute checks are safer than relying on a few exact times.
-    # The freshness gate performs the full scan at most once after 06:00 and
-    # once after 14:00 Asia/Taipei, then skips the remaining checks.
-    - cron: "7,27,47 * * * *"
+    # Late GitHub-only backups for the external Vercel triggers. GitHub cron is
+    # best-effort, so it is no longer the primary scheduler. The freshness gate
+    # skips these jobs when Vercel already published the requested window.
+    # 23:50/07:50 UTC = 07:50/15:50 Asia/Taipei.
+    - cron: "50 23 * * *"
+    - cron: "50 7 * * *"
 
 permissions:
   contents: write
