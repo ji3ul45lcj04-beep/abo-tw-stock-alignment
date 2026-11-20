@@ -253,11 +253,11 @@
         "tp2": 134.5,
         "tp3": 149.0
       },
-      "status": "TP1 GET",
+      "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-10",
       "highest_tp": 1,
       "last_seen": "2026-11-20",
-      "rearm": false
+      "rearm": true
     },
     "2634.TW": {
       "created_date": "2026-09-08",
@@ -304,11 +304,11 @@
         "tp2": 31.1,
         "tp3": 33.0
       },
-      "status": "TP2 GET",
+      "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-01",
       "highest_tp": 2,
       "last_seen": "2026-11-20",
-      "rearm": false
+      "rearm": true
     },
     "2816.TW": {
       "created_date": "2026-10-01",
@@ -320,11 +320,11 @@
         "tp2": 43.95,
         "tp3": 46.2
       },
-      "status": "TP2 GET",
+      "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-02",
       "highest_tp": 2,
       "last_seen": "2026-11-20",
-      "rearm": false
+      "rearm": true
     },
     "2851.TW": {
       "created_date": "2026-09-30",
@@ -368,11 +368,11 @@
         "tp2": 169.5,
         "tp3": 180.0
       },
-      "status": "TP1 GET",
+      "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-01",
       "highest_tp": 1,
       "last_seen": "2026-11-20",
-      "rearm": false
+      "rearm": true
     },
     "2882.TW": {
       "created_date": "2026-09-30",
@@ -754,7 +754,7 @@
       "status": "TP3 GET",
       "entry_date": "2026-09-08",
       "highest_tp": 3,
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "rearm": true,
       "baseline_status": "ENTRY TOUCHED",
       "baseline_entry_date": "2026-09-08",
@@ -773,7 +773,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-22",
       "highest_tp": 1,
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "rearm": true
     },
     "4413.TWO": {
@@ -805,7 +805,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-10",
       "highest_tp": 0,
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "rearm": true
     },
     "4939.TWO": {
@@ -1317,7 +1317,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-10-07",
       "highest_tp": 2,
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "rearm": true
     },
     "6292.TWO": {
@@ -2757,7 +2757,7 @@
       "status": "TP2 GET",
       "entry_date": "2026-10-27",
       "highest_tp": 2,
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "rearm": false
     },
     "5228.TWO": {
@@ -3469,10 +3469,10 @@
       "levels": {
         "suggested_buy": 161.0,
         "warning_line": 163.0,
-        "stop_loss": 143.5,
-        "tp1": 178.5,
-        "tp2": 196.0,
-        "tp3": 213.5
+        "stop_loss": 144.0,
+        "tp1": 178.0,
+        "tp2": 195.0,
+        "tp3": 212.0
       },
       "status": "WAIT BUY",
       "entry_date": null,
@@ -3938,11 +3938,11 @@
         "tp2": 246.0,
         "tp3": 266.5
       },
-      "status": "ENTRY TOUCHED",
+      "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-11-19",
       "highest_tp": 0,
       "last_seen": "2026-11-20",
-      "rearm": false
+      "rearm": true
     },
     "6609.TWO": {
       "created_date": "2026-11-18",
@@ -3963,12 +3963,12 @@
     "6148.TWO": {
       "created_date": "2026-11-20",
       "levels": {
-        "suggested_buy": 46.1,
-        "warning_line": 48.5,
-        "stop_loss": 40.2,
-        "tp1": 52.0,
-        "tp2": 57.9,
-        "tp3": 63.8
+        "suggested_buy": 46.2,
+        "warning_line": 48.75,
+        "stop_loss": 40.1,
+        "tp1": 52.3,
+        "tp2": 58.4,
+        "tp3": 64.5
       },
       "status": "WAIT BUY",
       "entry_date": null,
@@ -4011,12 +4011,12 @@
     "2465.TW": {
       "created_date": "2026-11-20",
       "levels": {
-        "suggested_buy": 120.0,
-        "warning_line": 126.0,
-        "stop_loss": 104.0,
-        "tp1": 136.0,
-        "tp2": 152.0,
-        "tp3": 165.0
+        "suggested_buy": 118.5,
+        "warning_line": 124.5,
+        "stop_loss": 103.5,
+        "tp1": 133.5,
+        "tp2": 148.5,
+        "tp3": 163.5
       },
       "status": "WAIT BUY",
       "entry_date": null,
@@ -4027,12 +4027,12 @@
     "6108.TW": {
       "created_date": "2026-11-20",
       "levels": {
-        "suggested_buy": 33.5,
-        "warning_line": 35.1,
-        "stop_loss": 28.9,
-        "tp1": 38.1,
-        "tp2": 42.7,
-        "tp3": 47.3
+        "suggested_buy": 33.15,
+        "warning_line": 34.7,
+        "stop_loss": 28.75,
+        "tp1": 37.55,
+        "tp2": 41.9,
+        "tp3": 44.4
       },
       "status": "WAIT BUY",
       "entry_date": null,
@@ -4043,12 +4043,12 @@
     "2468.TW": {
       "created_date": "2026-11-20",
       "levels": {
-        "suggested_buy": 59.7,
-        "warning_line": 62.7,
-        "stop_loss": 51.0,
-        "tp1": 68.4,
-        "tp2": 77.1,
-        "tp3": 82.0
+        "suggested_buy": 60.1,
+        "warning_line": 63.3,
+        "stop_loss": 51.1,
+        "tp1": 69.1,
+        "tp2": 78.1,
+        "tp3": 87.1
       },
       "status": "WAIT BUY",
       "entry_date": null,
@@ -4059,12 +4059,12 @@
     "2923.TW": {
       "created_date": "2026-11-20",
       "levels": {
-        "suggested_buy": 27.95,
-        "warning_line": 29.25,
-        "stop_loss": 26.3,
-        "tp1": 29.55,
-        "tp2": 31.2,
-        "tp3": 32.85
+        "suggested_buy": 27.45,
+        "warning_line": 28.9,
+        "stop_loss": 26.05,
+        "tp1": 28.8,
+        "tp2": 29.6,
+        "tp3": 31.6
       },
       "status": "WAIT BUY",
       "entry_date": null,
