@@ -1337,7 +1337,7 @@
       "rearm": true
     },
     "2254.TW": {
-      "created_date": "2026-11-23",
+      "created_date": "2026-11-24",
       "levels": {
         "suggested_buy": 105.5,
         "warning_line": 106.5,
@@ -1349,7 +1349,7 @@
       "status": "WAIT BUY",
       "entry_date": null,
       "highest_tp": 0,
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "rearm": false
     },
     "2849.TW": {
@@ -3465,7 +3465,7 @@
       "rearm": false
     },
     "6199.TWO": {
-      "created_date": "2026-11-23",
+      "created_date": "2026-11-24",
       "levels": {
         "suggested_buy": 162.0,
         "warning_line": 163.5,
@@ -3477,7 +3477,7 @@
       "status": "WAIT BUY",
       "entry_date": null,
       "highest_tp": 0,
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "rearm": false
     },
     "6590.TWO": {
@@ -3961,7 +3961,7 @@
       "rearm": true
     },
     "6148.TWO": {
-      "created_date": "2026-11-23",
+      "created_date": "2026-11-24",
       "levels": {
         "suggested_buy": 46.2,
         "warning_line": 48.75,
@@ -3973,7 +3973,7 @@
       "status": "WAIT BUY",
       "entry_date": null,
       "highest_tp": 0,
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "rearm": false
     },
     "6150.TWO": {
@@ -4041,7 +4041,7 @@
       "rearm": true
     },
     "2468.TW": {
-      "created_date": "2026-11-23",
+      "created_date": "2026-11-24",
       "levels": {
         "suggested_buy": 60.1,
         "warning_line": 63.5,
@@ -4053,11 +4053,11 @@
       "status": "WAIT BUY",
       "entry_date": null,
       "highest_tp": 0,
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "rearm": false
     },
     "2923.TW": {
-      "created_date": "2026-11-23",
+      "created_date": "2026-11-24",
       "levels": {
         "suggested_buy": 27.4,
         "warning_line": 28.85,
@@ -4069,11 +4069,11 @@
       "status": "WAIT BUY",
       "entry_date": null,
       "highest_tp": 0,
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "rearm": false
     },
     "6140.TWO": {
-      "created_date": "2026-11-23",
+      "created_date": "2026-11-24",
       "levels": {
         "suggested_buy": 25.2,
         "warning_line": 26.55,
@@ -4085,7 +4085,7 @@
       "status": "WAIT BUY",
       "entry_date": null,
       "highest_tp": 0,
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "rearm": false
     }
   },
