@@ -2,6 +2,12 @@ name: Scan Taiwan stocks and deploy Pages
 
 on:
   workflow_dispatch:
+    inputs:
+      deploy_only:
+        description: Publish the latest committed docs without rescanning
+        required: false
+        default: false
+        type: boolean
   schedule:
     # Late GitHub-only backups for the external Vercel triggers. GitHub cron is
     # best-effort, so it is no longer the primary scheduler. The freshness gate
@@ -25,7 +31,7 @@ jobs:
     timeout-minutes: 45
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry.outputs.page_url }}
     env:
       TZ: Asia/Taipei
 
@@ -42,15 +48,17 @@ jobs:
 
       - name: Decide whether this backup run is needed
         id: freshness
+        env:
+          DEPLOY_ONLY: ${{ inputs.deploy_only }}
         run: python should_run.py
 
       - name: Select weekly cache key
-        if: steps.freshness.outputs.run == 'true'
+        if: steps.freshness.outputs.scan == 'true'
         shell: bash
         run: echo "CACHE_WEEK=$(date +%G-%V)" >> "$GITHUB_ENV"
 
       - name: Restore market history cache
-        if: steps.freshness.outputs.run == 'true'
+        if: steps.freshness.outputs.scan == 'true'
         id: history-cache
         uses: actions/cache@v4
         with:
@@ -60,16 +68,16 @@ jobs:
             tw-stock-history-
 
       - name: Expand initial history seed
-        if: steps.freshness.outputs.run == 'true' && steps.history-cache.outputs.cache-matched-key == ''
+        if: steps.freshness.outputs.scan == 'true' && steps.history-cache.outputs.cache-matched-key == ''
         shell: bash
         run: tar -xzf tw_stock_cache_seed.tar.gz -C data
 
       - name: Run regression tests
-        if: steps.freshness.outputs.run == 'true'
+        if: steps.freshness.outputs.scan == 'true'
         run: python -m unittest
 
       - name: Scan full Taiwan market
-        if: steps.freshness.outputs.run == 'true'
+        if: steps.freshness.outputs.scan == 'true'
         shell: bash
         run: |
           for attempt in 1 2 3 4; do
@@ -114,11 +122,11 @@ jobs:
           done
 
       - name: Validate generated site
-        if: steps.freshness.outputs.run == 'true'
+        if: steps.freshness.outputs.scan == 'true'
         run: python validate_output.py
 
       - name: Preserve latest state and snapshot
-        if: steps.freshness.outputs.run == 'true'
+        if: steps.freshness.outputs.scan == 'true'
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
@@ -130,16 +138,39 @@ jobs:
           fi
 
       - name: Configure GitHub Pages
-        if: steps.freshness.outputs.run == 'true'
+        if: steps.freshness.outputs.deploy == 'true'
         uses: actions/configure-pages@v5
 
       - name: Upload Pages artifact
-        if: steps.freshness.outputs.run == 'true'
+        if: steps.freshness.outputs.deploy == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs
 
+      - name: Wait for artifact propagation
+        if: steps.freshness.outputs.deploy == 'true'
+        run: sleep 20
+
       - name: Deploy GitHub Pages
-        if: steps.freshness.outputs.run == 'true'
+        if: steps.freshness.outputs.deploy == 'true'
         id: deployment
+        continue-on-error: true
         uses: actions/deploy-pages@v4
+
+      - name: Wait before deployment retry
+        if: steps.freshness.outputs.deploy == 'true' && steps.deployment.outcome == 'failure'
+        run: sleep 30
+
+      - name: Retry GitHub Pages deployment
+        if: steps.freshness.outputs.deploy == 'true' && steps.deployment.outcome == 'failure'
+        id: deployment_retry
+        uses: actions/deploy-pages@v4
+
+      - name: Verify deployment succeeded
+        if: always() && steps.freshness.outputs.deploy == 'true'
+        shell: bash
+        run: |
+          if [ "${{ steps.deployment.outcome }}" != "success" ] && [ "${{ steps.deployment_retry.outcome }}" != "success" ]; then
+            echo "Both Pages deployment attempts failed."
+            exit 1
+          fi
