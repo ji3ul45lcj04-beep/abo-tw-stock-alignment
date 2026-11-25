@@ -1337,19 +1337,19 @@
       "rearm": true
     },
     "2254.TW": {
-      "created_date": "2026-11-25",
+      "created_date": "2026-11-26",
       "levels": {
-        "suggested_buy": 107.0,
+        "suggested_buy": 106.0,
         "warning_line": 107.0,
         "stop_loss": 96.1,
-        "tp1": 117.5,
-        "tp2": 128.5,
-        "tp3": 139.5
+        "tp1": 115.5,
+        "tp2": 125.5,
+        "tp3": 135.5
       },
       "status": "WAIT BUY",
       "entry_date": null,
       "highest_tp": 0,
-      "last_seen": "2026-11-25",
+      "last_seen": "2026-11-26",
       "rearm": false
     },
     "2849.TW": {
@@ -1797,7 +1797,7 @@
       "status": "ORDER UNKNOWN",
       "entry_date": "2026-11-03",
       "highest_tp": 0,
-      "last_seen": "2026-11-24",
+      "last_seen": "2026-11-25",
       "rearm": false
     },
     "1595.TWO": {
@@ -4039,6 +4039,54 @@
       "highest_tp": 0,
       "last_seen": "2026-11-25",
       "rearm": true
+    },
+    "6140.TWO": {
+      "created_date": "2026-11-26",
+      "levels": {
+        "suggested_buy": 26.0,
+        "warning_line": 27.4,
+        "stop_loss": 22.6,
+        "tp1": 29.4,
+        "tp2": 32.7,
+        "tp3": 36.15
+      },
+      "status": "WAIT BUY",
+      "entry_date": null,
+      "highest_tp": 0,
+      "last_seen": "2026-11-26",
+      "rearm": false
+    },
+    "6148.TWO": {
+      "created_date": "2026-11-26",
+      "levels": {
+        "suggested_buy": 46.35,
+        "warning_line": 49.0,
+        "stop_loss": 40.85,
+        "tp1": 51.8,
+        "tp2": 54.7,
+        "tp3": 62.8
+      },
+      "status": "WAIT BUY",
+      "entry_date": null,
+      "highest_tp": 0,
+      "last_seen": "2026-11-26",
+      "rearm": false
+    },
+    "2468.TW": {
+      "created_date": "2026-11-26",
+      "levels": {
+        "suggested_buy": 60.2,
+        "warning_line": 63.6,
+        "stop_loss": 52.0,
+        "tp1": 68.4,
+        "tp2": 74.5,
+        "tp3": 82.0
+      },
+      "status": "WAIT BUY",
+      "entry_date": null,
+      "highest_tp": 0,
+      "last_seen": "2026-11-26",
+      "rearm": false
     }
   },
   "archive": {
