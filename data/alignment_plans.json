@@ -773,7 +773,7 @@
       "status": "STOP HIT / WAIT RESET",
       "entry_date": "2026-09-22",
       "highest_tp": 1,
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "rearm": true
     },
     "4413.TWO": {
@@ -1097,7 +1097,7 @@
       "rearm": true
     },
     "6870.TWO": {
-      "created_date": "2026-11-27",
+      "created_date": "2026-11-28",
       "levels": {
         "suggested_buy": 420.5,
         "warning_line": 420.5,
@@ -1109,7 +1109,7 @@
       "status": "WAIT BUY",
       "entry_date": null,
       "highest_tp": 0,
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "rearm": false
     },
     "1734.TW": {
@@ -1337,7 +1337,7 @@
       "rearm": true
     },
     "2254.TW": {
-      "created_date": "2026-11-27",
+      "created_date": "2026-11-28",
       "levels": {
         "suggested_buy": 107.5,
         "warning_line": 107.5,
@@ -1349,7 +1349,7 @@
       "status": "WAIT BUY",
       "entry_date": null,
       "highest_tp": 0,
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "rearm": false
     },
     "2849.TW": {
@@ -1797,7 +1797,7 @@
       "status": "ORDER UNKNOWN",
       "entry_date": "2026-11-03",
       "highest_tp": 0,
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
       "rearm": false
     },
     "1595.TWO": {
