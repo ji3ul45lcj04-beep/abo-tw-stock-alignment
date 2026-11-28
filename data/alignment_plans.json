@@ -1099,12 +1099,12 @@
     "6870.TWO": {
       "created_date": "2026-11-28",
       "levels": {
-        "suggested_buy": 420.5,
+        "suggested_buy": 413.0,
         "warning_line": 420.5,
         "stop_loss": 359.5,
-        "tp1": 481.5,
-        "tp2": 533.0,
-        "tp3": 603.0
+        "tp1": 466.5,
+        "tp2": 520.0,
+        "tp3": 573.0
       },
       "status": "WAIT BUY",
       "entry_date": null,
